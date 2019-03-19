@@ -13,7 +13,6 @@ def bubble_sort(items):
 def merge_sort(items):
 
     '''Return array of items, sorted in ascending order'''
-
     my_len = len(items)
     if my_len == 1:
         return items
@@ -43,7 +42,7 @@ def quick_sort(items):
 
     '''Return array of items, sorted in ascending order'''
 
-     mylen = len(items)
+    mylen = len(items)
 
     if mylen <= 1:
         return items

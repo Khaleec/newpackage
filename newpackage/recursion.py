@@ -12,7 +12,9 @@ def fibonacci(n):
 
     '''Return nth term in fibonacci sequence'''
 
-    if (n == 1) | (n == 2):
+    if n <= 1:
+        return n
+    elif n == 2:
         return 1
     else:
         return fibonacci(n-1) + fibonacci(n-2)
